@@ -45,7 +45,7 @@ class KinematicFit:
     def print_constraints(self):
         r = len(self.constraints)
         for i in range(r):
-            print(i, "constraint expression : {}".format(constraints[i]))
+            print(i, "constraint expression : {}".format(self.constraints[i]))
 
     """ print expressions of constraints """
     def print_constraints_derivatives(self):
